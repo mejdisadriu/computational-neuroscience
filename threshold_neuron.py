@@ -3,7 +3,7 @@ Threshold Neuron - The Simplest Spiking Model
 ==============================================
 Pure Python + Matplotlib for visualization
 
-Voltage rises with input. When it hits threshold: SPIKE!
+Voltage rises with input. When it hits threshold:  SPIKE!
 """
 
 import matplotlib.pyplot as plt
