@@ -34,7 +34,7 @@ This repository documents my learning path in computational neuroscience, implem
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/mejdiasdriu/computational-neuroscience.git
+git clone https://github.com/mejdisadriu/computational-neuroscience.git
 cd computational-neuroscience
 
 # Create environment
