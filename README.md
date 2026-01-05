@@ -1,71 +1,73 @@
-# Computational Neuroscience - From Zero
+# Computational Neuroscience: From Neurons to Networks
 
-Learning neuroscience by building neural models from scratch in pure Python.
 
-## What's Here
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Simple neuron simulations - no complex libraries, just pure Python to understand how neurons work.
+A comprehensive journey through computational neuroscience, from basic neuron models to complex network dynamics. Built from scratch using pure Python , NumPy, Matplotlib, Brian2 , Nest.
 
-**Philosophy:** Build it yourself → understand it deeply.
+## 🧠 What's Inside
 
-## Models
+This repository documents my learning path in computational neuroscience, implementing models progressively from simple to complex:
 
-### 1. Simple Threshold Neuron
-**File:** `threshold_neuron.py`
+### 1️⃣ Basic Models
+- **Threshold Neuron**: Simplest possible model
+- **Integrate-and-Fire**: Classic neuron model
+- **Leaky Integrate-and-Fire**: Adding biological realism
 
-The absolute basics: voltage rises with input, hits threshold → spike!
+### 2️⃣ Advanced Models
+- **Hodgkin-Huxley**: Biophysically detailed ion channel dynamics
+- **Adaptive Exponential IF**: Modern efficient model
+
+### 3️⃣ Network Dynamics
+- Two-neuron interactions
+- Excitatory/Inhibitory networks
+- Population dynamics
+
+### 4️⃣ Data Analysis
+- Spike train analysis
+- Raster plots
+- Firing rate computations
+- Real neural data processing
+
+## 🚀 Quick Start
+
+### Installation
 ```bash
-python threshold_neuron.py
-```
-
-**What it teaches:** How neurons generate spikes.
-
----
-
-### 2. Leaky Neuron *(coming soon)*
-Adding realistic voltage decay.
-
-### 3. Synaptic Input *(coming soon)*
-How neurons receive signals from other neurons.
-
----
-
-## Why Pure Python?
-
-- **No setup hassle** - just run the code
-- **See every step** - no "magic" from libraries
-- **Learn deeply** - understand what's really happening
-
-Later we'll add NumPy, Brian2, Nest, NEURON etc. But first: fundamentals.
-
-
-# Clone
-git clone https://github.com/yourusername/computational-neuroscience.git
+# Clone repository
+git clone https://github.com/mejdiasdriu/computational-neuroscience.git
 cd computational-neuroscience
 
+# Create environment
+conda env create -f environment.yml
+conda activate compneuro
+
+# OR with pip
+pip install -r requirements.txt
+```
+
+## 🛠️ Tech Stack
+
+- **Python 3.8+**
+- **NumPy** - Numerical computations
+- **Matplotlib** - Visualizations
+- **Jupyter** - Interactive notebooks
+- **Brian2** (optional) - For large-scale simulations
 
 
 
-## Background Needed
 
-- Basic Python (loops, if statements)
-- Basic neuroscience (what's a neuron, what's a spike)
+## 📝 License
 
+MIT License - feel free to use this code for learning and research.
 
+## 📧 Contact
 
+[Mejdi Sadriu] - [mehdisadriu@proton.me]
 
-
-
-
-
-## License
-
-MIT - Use freely for learning!
+Project Link: [https://github.com/mejdisadriu/computational-neuroscience](https://github.com/mejdisadriu/computational-neuroscience)
 
 ---
 
-⭐ **Star if this helps you learn!**
-```
-
+⭐ Star this repo if you find it helpful!
 
 
